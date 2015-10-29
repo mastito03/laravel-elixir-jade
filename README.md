@@ -8,7 +8,7 @@ Compiled Templates are located in your `/resources/views/` folder as default.
 ### Installation
 Run the following command in your Laravel project:
 
-    npm install laravel-elixir-jade
+    npm install mastito03/laravel-elixir-jade
 
 Next, add the following line into your gulpfile.js:
 
