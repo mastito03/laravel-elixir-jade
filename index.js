@@ -2,7 +2,7 @@ var elixir          = require('laravel-elixir');
 var gulp            = require('gulp');
 var jade            = require('gulp-jade');
 var rename          = require('gulp-rename');
-var plumber         =  require('gulp-plumber');
+var plumber         = require('gulp-plumber');
 var notify          = require('gulp-notify');
 var changed         = require('gulp-changed');
 var jadeInheritance = require('gulp-jade-inheritance');
@@ -62,7 +62,7 @@ elixir.extend('jade', function (options) {
             .pipe(gulp.dest(gulp_dest))
             .pipe(notify({
                 title: 'Jade completed',
-                message: '<%= file.relative %> have been compiled.',
+                message: '<%= file.relative %> Compiled.',
                 icon: __dirname + '/../laravel-elixir/icons/pass.png'
             }));
     })
